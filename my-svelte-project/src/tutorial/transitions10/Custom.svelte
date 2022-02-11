@@ -24,26 +24,26 @@
 
 <label>
   <input type="checkbox" bind:checked={visible} />
-  visible
+  Show custom transition
 </label>
 
 {#if visible}
   <div class="centered" in:spin={{ duration: 8000 }} out:fade>
-    <span>transitions!</span>
+    <span>Hello!</span>
   </div>
 {/if}
 
 <style>
   .centered {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    /* position: absolute; */
+    /* left: 50%;
+    top: 50%; */
+    /* transform: translate(-50%, -50%); */
   }
 
   span {
-    position: absolute;
-    transform: translate(-50%, -50%);
+    /* position: absolute; */
+    /* transform: translate(-50%, -50%); */
     font-size: 4em;
   }
 </style>

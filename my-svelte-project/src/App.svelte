@@ -1,6 +1,8 @@
 <script>
   export let name;
   import Video from "./tutorial/binding6/VideoBinding.svelte";
+  import Typewritter from "./tutorial/transitions10/Typewritter.svelte";
+  import Custom from "./tutorial/transitions10/Custom.svelte";
 </script>
 
 <main>
@@ -10,6 +12,8 @@
     how to build Svelte apps.
   </p>
   <h2>This is another title</h2>
+  <Typewritter />
+  <Custom />
   <Video />
 </main>
 

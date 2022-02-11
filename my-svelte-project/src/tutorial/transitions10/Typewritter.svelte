@@ -27,7 +27,7 @@
 
 <label>
   <input type="checkbox" bind:checked={visible} />
-  visible
+  Show typewritter effect
 </label>
 
 {#if visible}
